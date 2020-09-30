@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+      60deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("https://images.pexels.com/photos/4173624/pexels-photo-4173624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  color: white;
+}
+
+.info > h1 {
+  font-size: 4rem;
+}
+
+.info > h1::selection {
+  background-color: #a74352;
+}
+
+.clock-container {
+  display: flex;
+  flex: 1;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  position: relative;
+  padding: 2rem;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
+    inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 20px solid;
+}
+
+.clock-img {
+  background-image: url(roman-numerals-png-42134.png);
+  background-size: cover;
+  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(218deg)
+    brightness(103%) contrast(101%);
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+}
+
+.hand {
+  width: 42%;
+  height: 6px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition-timing-function: ease-in-out;
+}
