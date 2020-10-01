@@ -9,6 +9,6 @@
 
 - [04 - Array Cardio Day 1](https://github.com/ShaileshParmar-WebDeveloper/JavaScript-30/tree/master/04%20-%20Array%20Cardio%20Day%201) | [Live](https://shaileshparmar-webdeveloper.github.io/JavaScript-30/04%20-%20Array%20Cardio%20Day%201/)
 
-- [05 - Flex Panel Gallery]() | [Live]()
+- [05 - Flex Panel Gallery](https://github.com/ShaileshParmar-WebDeveloper/JavaScript-30/tree/master/05%20-%20Flex%20Panel%20Gallery) | [Live](https://shaileshparmar-webdeveloper.github.io/JavaScript-30/05%20-%20Flex%20Panel%20Gallery/)
 
-- [06 - Type Ahead]() | [Live]()
+- [06 - Type Ahead](https://github.com/ShaileshParmar-WebDeveloper/JavaScript-30/tree/master/06%20-%20Type%20Ahead) | [Live](https://shaileshparmar-webdeveloper.github.io/JavaScript-30/06%20-%20Type%20Ahead/)
