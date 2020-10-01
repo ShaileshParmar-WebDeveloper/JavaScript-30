@@ -1,0 +1,56 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* text-align: center; */
+  background-color: #193549;
+  color: white;
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.controls {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.imgContainer {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.js {
+  color: var(--base);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.box{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin: 1rem 0 2rem;
+}
