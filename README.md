@@ -7,4 +7,4 @@
 
 - [03 - CSS Variables](https://github.com/ShaileshParmar-WebDeveloper/JavaScript-30/tree/master/03%20-%20CSS%20Variables) | [Live](https://shaileshparmar-webdeveloper.github.io/JavaScript-30/03%20-%20CSS%20Variables/)
 
-- [04 - Array Cardio Day 1](https://github.com/ShaileshParmar-WebDeveloper/JavaScript-30/tree/master/04%20-%20Array%20Cardio%20Day%201) | [Live]()
+- [04 - Array Cardio Day 1](https://github.com/ShaileshParmar-WebDeveloper/JavaScript-30/tree/master/04%20-%20Array%20Cardio%20Day%201) | [Live](https://shaileshparmar-webdeveloper.github.io/JavaScript-30/04%20-%20Array%20Cardio%20Day%201/)
