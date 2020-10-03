@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Key Detection</title>
+    <script
+      type="text/javascript"
+      src="https://www.cornify.com/js/cornify.js"
+    ></script>
+    <style>
+      .heading {
+        text-align: center;
+        font-size: 5rem;
+        color: #ffc600;
+      }
+      .magicWord {
+        color: black;
+        /* text-decoration: underline; */
+        border: 1px solid #ffc600;
+        /* border-top: 1px solid #ffc600; */
+      }
+
+      body {
+        display: grid;
+        place-items: center;
+        height: 90vh;
+        background-color: rgb(54, 111, 177);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="heading">
+      Type <span class="magicWord">shailesh</span> and see Magic..!
+    </h1>
+    <script>
+      const arr = [];
+      const secreCode = "shailesh";
+      window.addEventListener("keyup", (e) => {
+        arr.push(e.key);
+        arr.splice(secreCode.length - 1, arr.length - secreCode.length);
+        console.log(secreCode.length - 1, arr.length - secreCode.length);
+        if (arr.join("").includes(secreCode)) {
+          console.log("DING DING!");
+          console.log(arr.join(""));
+          cornify_add();
+        }
+        console.log(arr);
+      });
+    </script>
+  </body>
+</html>
